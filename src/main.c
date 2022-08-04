@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "GLFW/glfw3.h"
-#include "vulkan/vulkan.h"
 
-int main() {
+#include "casim.h"
+#include "client.h"
 
-
-    printf("Hello, World!\n");
-    while(1){}
+int main()
+{
+    cl_init();
+    cl_createWindow();
 
     return 0;
 }

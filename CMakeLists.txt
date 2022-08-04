@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(GameOfLife C)
+project(CASim C)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
@@ -17,12 +17,13 @@ add_subdirectory(ext/GLFW)
 find_package(Vulkan REQUIRED)
 
 include_directories(${Vulkan_INCLUDE_DIRS})
+include_directories(include)
 
 # Game of Life
-add_executable(GameOfLife src/main.c src/instance.c src/c_window.c)
+add_executable(CASim src/main.c src/instance.c src/cl_window.c include/casim.h include/client.h src/client.c include/renderer.h include/compute.h)
 
 target_link_libraries(
-        GameOfLife
+        CASim
 
         glfw
         ${Vulkan_LIBRARIES}

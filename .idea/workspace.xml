@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="GameOfLife" targetName="glfw" />
-      <config projectName="GameOfLife" targetName="GameOfLife" />
-      <config projectName="GameOfLife" targetName="update_mappings" />
+      <config projectName="CASim" targetName="update_mappings" />
+      <config projectName="CASim" targetName="glfw" />
+      <config projectName="CASim" targetName="CASim" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,9 +16,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa063f19-fe6d-4cf2-8f29-93b1c11331b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ext/GLFW" afterDir="false" />
+    <list default="true" id="fa063f19-fe6d-4cf2-8f29-93b1c11331b4" name="Changes" comment="First">
+      <change afterPath="$PROJECT_DIR$/include/casim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/client.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/compute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/renderer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cl_window.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GameOfLife.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c_window.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,35 +70,29 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Riley\Documents\Programming\GameOfLife\src" />
-      <recent name="C:\Users\Riley\Documents\Programming\GameOfLife" />
-    </key>
-  </component>
-  <component name="RunManager" selected="CMake Application.GameOfLife">
-    <configuration name="GameOfLife" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GameOfLife" TARGET_NAME="GameOfLife" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GameOfLife" RUN_TARGET_NAME="GameOfLife">
+  <component name="RunManager" selected="CMake Application.CASim">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CASim" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CASim" TARGET_NAME="CASim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CASim" RUN_TARGET_NAME="CASim">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CASim" TARGET_NAME="glfw" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GameOfLife" TARGET_NAME="glfw" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="update_mappings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GameOfLife" TARGET_NAME="update_mappings" CONFIG_NAME="Debug">
+    <configuration name="update_mappings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CASim" TARGET_NAME="update_mappings" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.GameOfLife" />
+      <item itemvalue="CMake Application.CASim" />
       <item itemvalue="CMake Application.glfw" />
       <item itemvalue="CMake Application.update_mappings" />
     </list>
@@ -101,8 +106,17 @@
       <option name="presentableId" value="Default" />
       <updated>1659599939302</updated>
       <workItem from="1659599940870" duration="3348000" />
-      <workItem from="1659608365151" duration="189000" />
+      <workItem from="1659608365151" duration="294000" />
+      <workItem from="1659608895192" duration="2834000" />
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1659608570305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659608570306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>
