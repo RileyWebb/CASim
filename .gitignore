@@ -4,6 +4,8 @@
 /build/
 /bin/
 
+/.idea/
+
 # CMake
 CMakeLists.txt.user
 CMakeCache.txt
