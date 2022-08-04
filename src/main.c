@@ -4,6 +4,8 @@
 #include "casim.h"
 #include "client.h"
 
+#include "imgui.h"
+
 int main()
 {
     cl_init();
