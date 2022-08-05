@@ -1,3 +1,6 @@
 [submodule "ext/GLFW"]
 	path = ext/GLFW
 	url = https://github.com/glfw/glfw.git
+[submodule "ext/cImGui"]
+	path = ext/cImGui
+	url = https://github.com/cimgui/cimgui
